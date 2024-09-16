@@ -21,7 +21,6 @@ body {
     align-items: center;
     min-height: 110vh;
     background: rgba(39, 39, 39, 0.4);
-
 }
 
 .nav {
@@ -36,7 +35,7 @@ body {
     z-index: 100;
 }
 
-.nav-logo p {
+.nav-logo h1 {
     color: white;
     font-size: 25px;
     font-weight: 600;
@@ -161,10 +160,12 @@ header {
     outline: none;
     transition: .2s ease;
 }
+
 .input-field:hover,
 .input-field:focus{
     background: rgba(255, 255, 255, 0.25);
 }
+
 ::-webkit-input-placeholder {
     color: #fff;
 }
@@ -221,6 +222,7 @@ header {
     .nav-button {
         display: none;
     }
+
     .nav-menu.responsive {
         top: 100px;
     }
@@ -253,6 +255,7 @@ header {
         cursor: pointer;
         transition: .3s;
     }
+
     .nav-menu-btn i:hover {
         background: rgba(255, 255, 255, 0.15);
     }
